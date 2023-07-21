@@ -43,7 +43,7 @@
 
 # What is your status page called?
 # Shows up in the browser bar and meta tags
-title: Eggsample Status
+title: Status Layanan Digital - Universitas Jember
 
 # Should posts, which have a publish date
 # from the future, be built? Useful for
@@ -78,7 +78,7 @@ languageCode: en
 # than English! When tested with Lithuanian,
 # it would add unnecesary placeholders to
 # values that were intentionally empty.
-defaultContentLanguage: en
+defaultContentLanguage: id
 
 # What is the hostname or path to the root?
 # Where is the site hosted?
@@ -97,7 +97,7 @@ defaultContentLanguage: en
 #
 # Broken example:
 # baseUrl: /
-baseURL: https://example.com
+baseURL: https://sld.unej.id
 
 # For features like Last modified, you
 # need to use a Git repository. If you
@@ -143,10 +143,10 @@ params:
   # For help, see the wiki:
   # https://github.com/cstate/cstate/wiki/Customization
   categories:
-    - name: North Coast
-      description: The main servers are located here.
+    - name: SIAKAD
+      description: Sistem Informasi Akademik.
       closed: true
-    - name: Empty Category
+    - name: CORE DEV
     - name: Uncategorized
       untitled: true
 
@@ -158,14 +158,14 @@ params:
   # For help, see the wiki:
   # https://github.com/cstate/cstate/wiki/Customization
   systems:
-    - name: Gateway
-      category: North Coast
-    - name: Backup Gateway
-      category: North Coast
+    - name: SSO
+      category: SIAKAD
+    - name: DNS 1
+      category: CORE DEV
     - name: Website
-      description: The web frontend for the application.
+      description: Website utama Universitas Jember.
       category: Uncategorized
-      link: https://example.com/
+      link: https://unej.ac.id/
     - name: API
       description: The guts of the application.
       category: Uncategorized
@@ -377,7 +377,7 @@ params:
   # the value to the default:
   #
   # Default: UA-00000000-1
-  googleAnalytics: UA-00000000-1
+  # googleAnalytics: UA-00000000-1
 
 # These options affect the core of cState.
 # Please do not change them if you do not
